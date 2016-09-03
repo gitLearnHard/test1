@@ -10,7 +10,7 @@ STOCK_NUMBER_ALL_CNT = 0
 DATA_ALL_CNT = 0
 
 SQL = "no data"
-conn = pymysql.connect(host='localhost',port='',user='root',passwd='yuanwei111',db='stockinfo',charset='utf8')
+conn = pymysql.connect(host='localhost',port='',user='root',passwd='yiluxiangbei',db='stockinfo',charset='utf8')
 cur = conn.cursor()
 
 #write data into file
